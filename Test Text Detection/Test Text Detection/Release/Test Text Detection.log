@@ -1,0 +1,40 @@
+﻿Build started 6/11/2015 11:14:17 AM.
+     1>Project "C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Test Text Detection\Test Text Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\OpenCV 3\opencv\build\include" /I"C:\Tesseract-Build\tesseract-ocr\api" /I"C:\Tesseract-Build\tesseract-ocr\ccmain" /I"C:\Tesseract-Build\tesseract-ocr\ccutil" /I"C:\Tesseract-Build\tesseract-ocr\ccstruct" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt erfilter.cpp FinalRealTimeSystem.cpp "Generate ER Filtered Image.cpp" ocr_hmm_decoder.cpp ocr_tesseract.cpp ShapeContextUsingSavedImage.cpp "Resize Images.cpp" TestContour.cpp
+         erfilter.cpp
+         FinalRealTimeSystem.cpp
+         Generate ER Filtered Image.cpp
+         ocr_hmm_decoder.cpp
+         ocr_tesseract.cpp
+         ShapeContextUsingSavedImage.cpp
+         Resize Images.cpp
+         TestContour.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Release\Test Text Detection.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\OpenCV 3\opencv\build\x86\vc11\lib" /LIBPATH:"C:\Tesseract-Build\lib\Win32" opencv_ts300.lib opencv_world300.lib liblept171.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Release\Test Text Detection.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Release\Test Text Detection.lib" /MACHINE:X86 /SAFESEH Release\erfilter.obj
+         Release\FinalRealTimeSystem.obj
+         "Release\Generate ER Filtered Image.obj"
+         Release\ocr_hmm_decoder.obj
+         Release\ocr_tesseract.obj
+         Release\ShapeContextUsingSavedImage.obj
+         "Release\Resize Images.obj"
+         Release\TestContour.obj
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: bool __thiscall tesseract::PageIterator::BoundingBox(enum tesseract::PageIteratorLevel,int *,int *,int *,int *)const " (?BoundingBox@PageIterator@tesseract@@QBE_NW4PageIteratorLevel@2@PAH111@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: float __thiscall tesseract::LTRResultIterator::Confidence(enum tesseract::PageIteratorLevel)const " (?Confidence@LTRResultIterator@tesseract@@QBEMW4PageIteratorLevel@2@@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: void __thiscall tesseract::TessBaseAPI::End(void)" (?End@TessBaseAPI@tesseract@@QAEXXZ)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: void __thiscall tesseract::TessBaseAPI::Clear(void)" (?Clear@TessBaseAPI@tesseract@@QAEXXZ)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: char * __thiscall tesseract::TessBaseAPI::GetUTF8Text(void)" (?GetUTF8Text@TessBaseAPI@tesseract@@QAEPADXZ)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: class tesseract::ResultIterator * __thiscall tesseract::TessBaseAPI::GetIterator(void)" (?GetIterator@TessBaseAPI@tesseract@@QAEPAVResultIterator@2@XZ)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: int __thiscall tesseract::TessBaseAPI::Recognize(class ETEXT_DESC *)" (?Recognize@TessBaseAPI@tesseract@@QAEHPAVETEXT_DESC@@@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: void __thiscall tesseract::TessBaseAPI::SetImage(unsigned char const *,int,int,int,int)" (?SetImage@TessBaseAPI@tesseract@@QAEXPBEHHHH@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: void __thiscall tesseract::TessBaseAPI::SetPageSegMode(enum tesseract::PageSegMode)" (?SetPageSegMode@TessBaseAPI@tesseract@@QAEXW4PageSegMode@2@@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: int __thiscall tesseract::TessBaseAPI::Init(char const *,char const *,enum tesseract::OcrEngineMode,char * *,int,class GenericVector<class STRING> const *,class GenericVector<class STRING> const *,bool)" (?Init@TessBaseAPI@tesseract@@QAEHPBD0W4OcrEngineMode@2@PAPADHPBV?$GenericVector@VSTRING@@@@3_N@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: bool __thiscall tesseract::TessBaseAPI::SetVariable(char const *,char const *)" (?SetVariable@TessBaseAPI@tesseract@@QAE_NPBD0@Z)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall tesseract::TessBaseAPI::~TessBaseAPI(void)" (??1TessBaseAPI@tesseract@@UAE@XZ)
+     1>ocr_tesseract.obj : error LNK2001: unresolved external symbol "public: __thiscall tesseract::TessBaseAPI::TessBaseAPI(void)" (??0TessBaseAPI@tesseract@@QAE@XZ)
+     1>C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Release\Test Text Detection.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "C:\Users\ADMIN\Documents\Visual Studio 2013\Projects\Test Text Detection\Test Text Detection\Test Text Detection.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.09

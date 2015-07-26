@@ -1,0 +1,35 @@
+﻿Build started 7/3/2015 5:49:35 AM.
+     1>Project "C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Test Text Detection\Test Text Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\OpenCV 3\opencv\build\include" /I"C:\Tesseract-Build\tesseract-ocr\api" /I"C:\Tesseract-Build\tesseract-ocr\ccmain" /I"C:\Tesseract-Build\tesseract-ocr\ccstruct" /I"C:\Tesseract-Build\tesseract-ocr\ccutil" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FinalRealTimeSystem.cpp
+         FinalRealTimeSystem.cpp
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(545): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(595): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(634): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(639): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(666): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(676): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(680): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(696): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(863): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(889): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(928): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(932): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(955): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(959): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jummel\documents\visual studio 2013\projects\test text detection\test text detection\finalrealtimesystem.cpp(1025): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Debug\Test Text Detection.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\OpenCV 3\opencv\build\x86\vc12\lib" /LIBPATH:"C:\Tesseract-Build\tesseract-ocr\vs2013\bin\Win32\DLL_Debug" opencv_world300d.lib opencv_ts300d.lib libtesseract304d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Debug\Test Text Detection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Debug\Test Text Detection.lib" /MACHINE:X86 Debug\erfilter.obj
+         Debug\FinalRealTimeSystem.obj
+         "Debug\Generate ER Filtered Image.obj"
+         Debug\ocr_hmm_decoder.obj
+         Debug\ocr_tesseract.obj
+         Debug\ShapeContextUsingSavedImage.obj
+         "Debug\Resize Images.obj"
+         Debug\TestContour.obj
+         Test Text Detection.vcxproj -> C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Debug\Test Text Detection.exe
+     1>Done Building Project "C:\Users\Jummel\Documents\Visual Studio 2013\Projects\Test Text Detection\Test Text Detection\Test Text Detection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.85
